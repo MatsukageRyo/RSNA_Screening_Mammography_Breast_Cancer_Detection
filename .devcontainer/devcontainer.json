@@ -4,7 +4,7 @@
 	"name": "Kaggle",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "21c5b7b0e2c6",
-	"runArgs": ["--runtime=nvidia","--rm"],
+	"runArgs": ["--runtime=nvidia"],//,"--rm"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
